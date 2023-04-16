@@ -6,4 +6,4 @@ hash.append(10);
 hash.append(50)
 hash.append(1000)
 hash.append(500)
-console.log(hash.search(580))
+console.log(hash.search(50))

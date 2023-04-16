@@ -60,14 +60,12 @@ class LinkedList {
         while(headNode !== null && value !== headNode.value ){
             headNode = headNode.next;
 
-            if(!headNode){
-                return false;
-            }
-
-            if (headNode.value == value){
+            if (headNode && headNode.value == value){
                 return true;
             }
         }
+
+        return false;
 
 
     }
